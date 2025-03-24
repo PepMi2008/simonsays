@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c86bb6d-c7ab-4fe7-af6e-48dd6f8e2fb4" name="Changes" comment="">
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/Simonsays.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/https:/github.com/PepMi2008/Simonsays" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2uUKJye2aMwrZg3QBVwrZidvZ7E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$USER_HOME$/$PROJECT_DIR$/index.js" working-dir="$USER_HOME$/$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c86bb6d-c7ab-4fe7-af6e-48dd6f8e2fb4" name="Changes" comment="" />
+      <created>1742297644883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742297644883</updated>
+      <workItem from="1742297646033" duration="252000" />
+      <workItem from="1742298303276" duration="32000" />
+      <workItem from="1742298383294" duration="19000" />
+      <workItem from="1742298508643" duration="156000" />
+      <workItem from="1742298793165" duration="175000" />
+      <workItem from="1742299256588" duration="71000" />
+      <workItem from="1742556179240" duration="205000" />
+      <workItem from="1742556431715" duration="229000" />
+      <workItem from="1742556714417" duration="1196000" />
+      <workItem from="1742557927637" duration="1101000" />
+      <workItem from="1742811420252" duration="603000" />
+      <workItem from="1742812073264" duration="408000" />
+      <workItem from="1742812530876" duration="1241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
