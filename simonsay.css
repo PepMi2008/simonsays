@@ -56,3 +56,6 @@ body {
     margin-top: 20px;
     font-size: 18px;
 }
+.light {
+    filter: brightness(1.5);
+}

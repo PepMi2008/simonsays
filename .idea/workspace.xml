@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c86bb6d-c7ab-4fe7-af6e-48dd6f8e2fb4" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/Simonsays.iml" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/package.json" afterDir="false" />
+    <list default="true" id="0c86bb6d-c7ab-4fe7-af6e-48dd6f8e2fb4" name="Changes" comment="uep">
+      <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.css" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +87,26 @@
       <workItem from="1742557927637" duration="1101000" />
       <workItem from="1742811420252" duration="603000" />
       <workItem from="1742812073264" duration="408000" />
-      <workItem from="1742812530876" duration="1241000" />
+      <workItem from="1742812530876" duration="1547000" />
+      <workItem from="1742901961837" duration="628000" />
+      <workItem from="1742902690175" duration="1857000" />
     </task>
+    <task id="LOCAL-00001" summary="uep">
+      <option name="closed" value="true" />
+      <created>1742814055450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742814055450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="uep" />
+    <option name="LAST_COMMIT_MESSAGE" value="uep" />
   </component>
 </project>
