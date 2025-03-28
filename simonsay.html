@@ -8,26 +8,28 @@
 <body>
 <section id="page">
     <header>
-        <div >Simons says</div>
-
+        <div>Simon's Says</div>
     </header>
-    <h1>Simon's Says</h1>
-    <div id="message" class="message">Fes clic a un botó per començar!</div>
+
+    <h1>Simon Says</h1>
+    <button  onclick="comensar()" id="startButton" class="start-btn">Començar el Joc</button>
+    <div id="message" class="message">Fes clic a "Començar el Joc" per iniciar!</div>
+
     <div class="memory game">
-        <button class="card red"></button>
-        <button class="card blue"></button>
-        <button class="card green"></button>
-        <button class="card purple"></button>
-
+        <button class="card red" id="red"></button>
+        <button class="card blue" id="blue"></button>
+        <button class="card green" id="green"></button>
+        <button class="card purple" id="purple"></button>
     </div>
+
     <div>
-        <button class="card orange"></button>
-        <button class="card pink"></button>
-        <button class="card cian"></button>
-        <button class="card yellow"></button>
+        <button class="card orange" id="orange"></button>
+        <button class="card pink" id="pink"></button>
+        <button class="card cian" id="cian"></button>
+        <button class="card yellow" id="yellow"></button>
     </div>
-
 </section>
 
+<script src="index.js"></script>
 </body>
 </html>
