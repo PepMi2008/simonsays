@@ -1,45 +1,42 @@
-const cadacolor = ['red', 'green', 'blue', 'purple', 'orange', 'yellow', 'pink', 'cian'];
-let posicioAleatoria; //Contindrà un nombre ale
+
+const cadacolor = ['red', 'green', 'blue', 'purple', 'orange', 'brown', 'pink', 'cian'];
+let posicioAleatoria;
 let colors = [];
+//let esperandoEntrada = false;
+//let currentIndex = 0;
+
 function comensar() {
+    document.getElementById('startButton').disabled = true;
+    posicioAleatoria = Math.floor(Math.random() * cadacolor.length);
+    let selectedColor = cadacolor[posicioAleatoria];
+    colors.push(selectedColor);
 
-    document.getElementById('startButton').disabled="true";
-    posicioAleatoria = Math.floor((Math.random() * cadacolor.length));
-    console.log(posicioAleatoria);
-    console.log(cadacolor[posicioAleatoria]);
-    colors.push(cadacolor[posicioAleatoria]);
-
-
-// Mostrar el resultad
-    console.log("Color seleccionado:", cadacolor[posicioAleatoria]);
+    console.log("Color seleccionado:", selectedColor);
     console.log("Colores seleccionados:", colors);
-    mostrar_colors(500);
 
-//    comensar.disabled = true;
-}
-
-    async function mostrar_colors(temps) {
-        for (let i = 0; i < colors.length; i++) {
-            //TODO instruccions per mostrar el color. Per exemple
-
-            //Crida al mètode esperar
-
-            document.getElementById('red', 'green', 'blue', 'purple', 'orange', 'yellow', 'pink', 'cian').style.backgroundColor='red', 'green', 'blue', 'purple', 'orange', 'yellow', 'pink', 'cian';
-            await esperar(temps);
-            document.getElementById('red', 'green', 'blue', 'purple', 'orange', 'yellow', 'pink', 'cian').style.backgroundColor='red', 'green', 'blue', 'purple', 'orange', 'yellow', 'pink', 'cian';
-
-
-        }
-    }
-
-
-function esperar(milliseconds){
-   return new Promise(resolve => {
-        setTimeout(resolve, milliseconds);
+    mostrar_colors(1500).then(() => {
+        esperandoEntrada = true; // Habilita los clics del usuario
+        currentIndex = 0; // Reinicia la posición del usuario en la secuencia
     });
 }
 
-//mostrar_colors(500);
+async function mostrar_colors(temps) {
+    for (let i = 0; i < colors.length; i++) {
+        let button = document.getElementById(colors[i]); // Selecciona el botón correcto
+        if (button) {
+            button.style.filter = "brightness(1.5)"; // Hace el color más claro
+            await esperar(temps);
+            button.style.filter = "brightness(1)"; // Restaura el color original
+        }
+        await esperar(temps);
+    }
+}
+
+
+function esperar(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+
 
 
 

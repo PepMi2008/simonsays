@@ -34,14 +34,14 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.red { background-color: red; }
+.red { background-color: darkred; }
 .blue { background-color: blue; }
 .green { background-color: green; }
-.yellow { background-color: yellow; }
+.brown { background-color: saddlebrown; }
 .purple { background-color: purple; }
 .orange { background-color: orange; }
-.pink { background-color: pink; }
-.cyan { background-color: cyan; }
+.pink { background-color: deeppink; }
+.cian { background-color: deepskyblue; }
 
 
 
