@@ -7,7 +7,6 @@
     <list default="true" id="0c86bb6d-c7ab-4fe7-af6e-48dd6f8e2fb4" name="Changes" comment="uep">
       <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/index.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.css" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.css" afterDir="false" />
       <change beforePath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.html" beforeDir="false" afterPath="$USER_HOME$/https:/github.com/PepMi2008/Simonsays/simonsay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +108,8 @@
       <workItem from="1743161992626" duration="58000" />
       <workItem from="1743162079212" duration="1577000" />
       <workItem from="1743412345450" duration="2790000" />
+      <workItem from="1743502941666" duration="518000" />
+      <workItem from="1743503485625" duration="2082000" />
     </task>
     <task id="LOCAL-00001" summary="uep">
       <option name="closed" value="true" />
