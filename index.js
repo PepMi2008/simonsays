@@ -4,6 +4,16 @@ let posicioAleatoria;
 let colors = [];
 let esperandoEntrada = false;
 let currentIndex = 0;
+const sons = {
+    red: new Audio('sons/red.mp3'),
+    green: new Audio('sons/green.mp3'),
+    blue: new Audio('sons/blue.mp3'),
+    purple: new Audio('sons/purple.mp3'),
+    orange: new Audio('sons/orange.mp3'),
+    brown: new Audio('sons/brown.mp3'),
+    pink: new Audio('sons/pink.mp3'),
+    cian: new Audio('sons/cyan.mp3')
+};
 
 function comensar() {
     document.getElementById('startButton').disabled = true;
@@ -24,10 +34,12 @@ function comensar() {
     }
 
     async function mostrar_colors(temps) {
-        for (let i = 0; i < colors.length; i++) {
+
+    for (let i = 0; i < colors.length; i++) {
             let button = document.getElementById(colors[i]); // Selecciona el botón correcto
             if (button) {
                 button.style.filter = "brightness(1.5)"; // Fa el color més clar
+                sons[colors[i]].play();
                 await esperar(700);
                 button.style.filter = "brightness(1)"; // Restaura el color original
 
@@ -38,6 +50,7 @@ function comensar() {
 
 function manejarclics(colorSeleccionado) {
     if (!esperandoEntrada) return;
+    sons[colorSeleccionado].play();
 
     if (colorSeleccionado == colors[currentIndex]) {
         currentIndex++;
