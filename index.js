@@ -28,9 +28,9 @@ function comensar() {
             let button = document.getElementById(colors[i]); // Selecciona el botón correcto
             if (button) {
                 button.style.filter = "brightness(1.5)"; // Fa el color més clar
-                await esperar(temps);
+                await esperar(700);
                 button.style.filter = "brightness(1)"; // Restaura el color original
-                console.log("ja vaig per aquí");
+
             }
             await esperar(temps);
         }
@@ -39,9 +39,9 @@ function comensar() {
 function manejarclics(colorSeleccionado) {
     if (!esperandoEntrada) return;
 
-    if (colorSeleccionado === colors[currentIndex]) {
+    if (colorSeleccionado == colors[currentIndex]) {
         currentIndex++;
-        if (currentIndex === colors.length) {
+        if (currentIndex == colors.length) {
             esperandoEntrada = false; // Evita múltiples clicks rápidos
             setTimeout(() => {
                 agregarColor();
@@ -49,7 +49,6 @@ function manejarclics(colorSeleccionado) {
                     .then(() => {
                         esperandoEntrada = true;
                         currentIndex = 0;
-                        console.log("ja vaig per aquí 2");
                     })
                     .catch(error => console.error("Error al mostrar colores:", error));
             }, 1000);
