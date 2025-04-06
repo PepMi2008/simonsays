@@ -3,7 +3,7 @@ let posicioAleatoria;
 let colors = [];
 let esperandoEntrada = false;
 let currentIndex = 0;
-let tempsDeMemoritzacio = 1500; // Temps inicial per recordar cada color (en mil·lisegons)
+let tempsDeMemoritzacio = 1300; // Temps inicial per recordar cada color (en mil·lisegons)
 
 // Comença el joc
 function comensar() {
@@ -64,7 +64,7 @@ function manejarclics(colorSeleccionado) {
 
 // Incrementa la dificultat afegint un color més i reduint el temps
 function incrementarDificultat() {
-    tempsDeMemoritzacio = Math.max(1000, tempsDeMemoritzacio - 100); // Redueix el temps fins a un mínim de 1000ms
+    tempsDeMemoritzacio = Math.max(600, tempsDeMemoritzacio - 100); // Redueix el temps fins a un mínim de 1000ms
     agregarColor(); // Afegeix un nou color a la seqüència
 }
 
