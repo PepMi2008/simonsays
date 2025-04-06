@@ -2,31 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simon says</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="simonsay.css">
 </head>
 <body>
-<section id="page">
+    <section id="page">
+        <h1>Simon Says</h1>
+        <button onclick="comensar()" id="startButton" class="start-btn">Començar el Joc</button>
+        <div id="message" class="message">Fes clic a "Començar el Joc" per iniciar!</div>
 
-    <h1>Simon Says</h1>
-    <button  onclick="comensar()" id="startButton" class="start-btn">Començar el Joc</button>
-    <div id="message" class="message">Fes clic a "Començar el Joc" per iniciar!</div>
+        <div class="memory game">
+            <button class="card red" onclick="manejarclics('red')" id="red"></button>
+            <button class="card blue" onclick="manejarclics('blue')" id="blue"></button>
+            <button class="card green" onclick="manejarclics('green')" id="green"></button>
+            <button class="card purple" onclick="manejarclics('purple')" id="purple"></button>
+        </div>
 
-    <div class="memory game">
-        <button class="card red" onclick="manejarclics('red')" id="red"></button>
-        <button class="card blue" onclick="manejarclics('blue')" id="blue"></button>
-        <button class="card green" onclick="manejarclics('green')" id="green"></button>
-        <button class="card purple" onclick="manejarclics('purple')" id="purple"></button>
-    </div>
+        <div>
+            <button class="card orange" onclick="manejarclics('orange')" id="orange"></button>
+            <button class="card pink" onclick="manejarclics('pink')" id="pink"></button>
+            <button class="card cian" onclick="manejarclics('cian')" id="cian"></button>
+            <button class="card brown" onclick="manejarclics('brown')" id="brown"></button>
+        </div>
+      
 
-    <div>
-        <button class="card orange" onclick="manejarclics('orange')" id="orange"></button>
-        <button class="card pink" onclick="manejarclics('pink')" id="pink"></button>
-        <button class="card cian" onclick="manejarclics('cian')" id="cian"></button>
-        <button class="card brown" onclick="manejarclics('brown')" id="brown"></button>
-    </div>
-</section>
-
-<script src="index.js"></script>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
