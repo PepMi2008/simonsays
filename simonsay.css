@@ -1,29 +1,81 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #282c34;
-    color: white;
+    background-color: #121212;
+    color: #00FF00;
 }
 
-.game-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h1 {
+    font-size: 50px;
     margin-top: 50px;
+    text-transform: uppercase;
+    color: #00FF00;
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.8);
 }
 
-.buttons {
+/* Botó de Començar el Joc amb estil retro */
+#startButton {
+    padding: 20px 40px;
+    font-size: 24px;
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #4CAF50, #45a049);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #45a049;
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#startButton:hover {
+    background: linear-gradient(145deg, #45a049, #4CAF50);
+    box-shadow: 0 0 30px #4CAF50, 0 0 40px #45a049, 0 0 50px #4CAF50;
+    transform: scale(1.1);
+}
+
+#startButton:active {
+    transform: scale(0.95);
+}
+
+#startButton:after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    animation: pulse 1.5s infinite;
+    opacity: 0;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.memory.game {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
-    margin-top: 50px;
-    width: 500px;
-    height: 500px;
+    margin-top: 30px;
 }
 
 .card {
@@ -31,34 +83,64 @@ body {
     height: 100px;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
 }
 
-.red { background-color: darkred; }
-.blue { background-color: mediumaquamarine; }
-.green { background-color: green; }
-.brown { background-color: saddlebrown; }
-.purple { background-color: purple; }
-.orange { background-color: orange; }
-.pink { background-color: deeppink; }
-.cian { background-color: deepskyblue; }
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1);
+}
 
+.red {
+    background-color: #ff4d4d;
+}
 
+.blue {
+    background-color: #4d94ff;
+}
 
+.green {
+    background-color: #4dff4d;
+}
 
+.brown {
+    background-color: #8B4513;
+}
+
+.purple {
+    background-color: #9b4dff;
+}
+
+.orange {
+    background-color: #ff9a00;
+}
+
+.pink {
+    background-color: #ff66b2;
+}
+
+.cian {
+    background-color: #00b3b3;
+}
+
+/* Efecte de llum durant la seqüència de colors */
+.light {
+    filter: brightness(1.5);
+}
 
 .message {
     margin-top: 20px;
     font-size: 20px;
+    color: #FFFF00;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.8);
 }
 
 .game-info {
     margin-top: 20px;
     font-size: 18px;
 }
-.light {
-    filter: brightness(1.5);
-}
+
 .start-btn {
     padding: 10px 20px;
     font-size: 18px;
@@ -73,4 +155,14 @@ body {
 
 .start-btn:hover {
     background-color: #45a049;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.card.animar {
+    animation: blink 0.5s infinite;
 }
